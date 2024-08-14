@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e4d7;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+h1{
+    color: orange;
+    
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+    font-size: 150%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(202, 123, 26);
+    font-weight: bold;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(202, 123, 26);
+}
+
+.links:hover{
+    color:white;
+    background-color: rgb(202, 123, 26);
+    padding: 10px;
+    border-radius: 10px;
+}
+.landingbck{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.landing{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    background-size: cover;
+background-image: url('https://aboutthetable.com/wp-content/uploads/2020/08/Table-Spread-scaled.jpeg');  
+  background-attachment: fixed;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.landing h1{
+    position: absolute;
+    margin-bottom: 160px;
+    color: rgb(226, 130, 12);
+    font-size: 100px;
+}
+
+
+
+
+.about {
+    text-align: center;
+    padding: 0px 0px;
+    background-color: #fff;
+    display: flex;
+    color: rgb(226, 130, 13);
+    width: 100%;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    margin: 20%;
+
+}
+
+.about p {
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about button {
+    background-color: #e1a18a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.photo img{
+    width: 70%; 
+    height: 90%;
+    position: relative;
+
+}
+.content{
+    text-align: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
+.social-media a {
+    margin: 0 10px;
+    
+
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: rgb(202, 123, 26);
+    font-size: 2rem;
+}
+.icon:hover{
+background-image: linear-gradient(to bottom right,  red,yellow,purple,green);
+}
+.icon:hover .brands{
+    color: white;
+    /* animation */
+    animation: rotate 3s;
+
+}
+@keyframes rotate{
+0%{
+    transform: rotate(30deg);
+}
+20%{
+    transform: rotate(-30deg);
+}
+40%{
+    transform: rotate(30deg);
+}
+60%{
+    transform: rotate(-30deg);
+}
+80%{
+    transform: rotate(30deg);
+}
+100%{
+    transform: rotate(-30deg);
+}
+
+
+}
+
+footer h2 {
+    margin-top: 10px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 20px;
+    color:rgb(202, 123, 26);
+    
+}
+.footer-contact{ 
+    display: flex;
+}
+.footerlogo img{
+    
+    width: 50px;
+
+}
